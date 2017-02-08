@@ -1,0 +1,255 @@
+//  Table of Contents:
+//
+//   1. Global
+//   2. Typography
+//   3. 404
+//   4. Navigation
+//   5. Sections
+//   6. Excerpt
+//   7. Page
+//   8. Contact
+
+// 1. Global
+// ---------
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+:focus {
+outline: 0;
+}
+
+body {
+  cursor: default;
+}
+
+svg {
+  max-width: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background: $color--black;
+  color: $color--white;
+}
+
+.index .columns {
+  transition: $primary-transition;
+}
+
+a { 
+  transition: $primary-transition;
+}
+
+
+// 2. Typography
+// -------------
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+
+// 3. 404
+// ------
+
+
+// 4. Navigation
+// -------------
+
+.info {
+  padding: 1rem;
+}
+
+
+// 4. Navigation
+// -------------
+
+.videos {
+  padding: 1rem;
+}
+
+.video {
+  padding-bottom: 1rem;
+}
+
+.video__text {
+  padding-bottom: 1rem;
+}
+
+// 6. Artists
+// ----------
+
+.artists {
+  padding: 1rem;
+}
+
+.artist {
+  padding: 1rem;
+}
+
+.artist__text {
+  padding-top: 1rem;
+}
+
+.artist__excerpt {
+	position:relative;
+	opacity:1;
+	
+	  p {
+//   	  opacity:0.0;
+	  }
+	
+  	img {
+      width:100%;
+    }
+    
+    .artist__image:after {
+      opacity:0;
+      transition: $primary-transition;
+    }
+    
+    &:hover .artist__image:after {
+        background:$color--black;
+        opacity:0.7;
+      }
+      
+    &:hover .artist__links {
+opacity: 1;
+      } 
+}
+
+.artist__links {
+  opacity: 0;
+  color: $color--white;
+  transition: $primary-transition;
+  position:absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  z-index: 1;
+  a {
+  color: $color--white;
+  }
+  a:hover {
+  color: $color--gray;
+  }
+  @include breakpoint(small only) {
+    padding: 2rem;
+  	}
+}
+
+.artist__links .menu > li > a {
+  padding: 0.25rem;
+}
+
+
+.artist__image:after {
+  content:'\A';
+  position:absolute;
+  width:100%; 
+  height:100%;
+  top:0; 
+  left:0;
+  background:$color--black;
+  opacity:0.25;
+}
+
+
+
+// Releases
+
+
+.releases {
+  padding: 1rem;
+}
+
+.release {
+  padding: 1rem;
+}
+
+.release__text {
+  padding-top: 1rem;
+}
+
+.release__excerpt {
+	position:relative;
+	opacity:1;
+	
+	  p {
+//   	  opacity:0.0;
+	  }
+	
+  	img {
+      width:100%;
+    }
+    
+    .release__image:after {
+      opacity:0;
+      transition: $primary-transition;
+    }
+    
+    &:hover .release__image:after {
+        background:$color--black;
+        opacity:0.7;
+      }
+      
+    &:hover .release__format {
+opacity: 1;
+      } 
+}
+
+.release__format {
+  opacity: 0;
+  color: $color--white;
+  transition: $primary-transition;
+  position:absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  z-index: 1;
+  a {
+  color: $color--white;
+  }
+  a:hover {
+  color: $color--gray;
+  }
+  @include breakpoint(small only) {
+    padding: 2rem;
+  	}
+}
+
+
+.release__image:after {
+  content:'\A';
+  position:absolute;
+  width:100%; 
+  height:100%;
+  top:0; 
+  left:0;
+  background:$color--black;
+  opacity:0.25;
+}
+
+
+.carousel {
+  height: 100vh;
+  @include breakpoint(small only) {
+    height: calc(100vh - 200px);
+  	}
+}

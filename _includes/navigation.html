@@ -1,0 +1,29 @@
+{% for entry in site.data.navigation %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
+
+<nav>
+<ul class="menu vertical">
+<li class="top-bar__logo"><a href="/" class="animsition-link"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a></li>
+
+{% for entry in site.data.navigation %}
+{% if entry.url == current_page %}
+{% assign current = ' class="active"' %}
+{% else %}
+{% assign current = null %}
+{% endif %}
+{% assign sublinks = entry.sublinks %}
+{% if sublinks %}
+<li{{ current }}>
+<a href="{{ site.baseurl }}{{ entry.url }}" class="animsition-link">{{ entry.title }}</a>
+<ul class="menu vertical">
+{% for sublink in sublinks %}
+<li><a href="{{ site.baseurl }}{{ sublink.url }}" class="animsition-link">{{ sublink.title }}</a></li>
+{% endfor %}
+</ul>
+</li>
+{% else %}
+<li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="animsition-link">{{ entry.title }}</a></li>
+{% endif %}
+{% endfor %}
+
+</ul>
+</nav>

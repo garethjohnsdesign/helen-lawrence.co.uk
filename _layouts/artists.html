@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<!-- Artists -->
+<section class="artists">
+  <div class="row collapse expanded small-up-1 medium-up-2 large-up-3"> 
+    {% assign artists = site.artists | sort: 'position' %}
+    {% for artist in artists %}
+      <div class="columns">
+        
+        
+        <!-- Artist -->
+        <div class="artist">    
+        <div class="artist__excerpt">      
+            <div class="artist__image">
+              <img src="{{ artist.image }}" alt="{{ artist.title }}">
+            </div>
+            
+            <div class="artist__links">
+              {% include socials.html %}
+            </div>
+        </div>
+        <!-- End Artist -->
+        
+        <div class="artist__text">
+        {{ artist.title }} 
+        </div>
+        </div>
+
+      </div>
+    {% endfor %}
+  </div>
+</section>
+<!-- End Artists -->

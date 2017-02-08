@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<!-- Head -->
+{% include head.html %}
+<!-- End Head -->
+
+<body>
+  <div class="off-canvas position-left reveal-for-medium" id="offCanvas" data-off-canvas>
+  {% include navigation.html %}
+  </div>
+  <div class="off-canvas-content" data-off-canvas-content>
+  {% include navigation-mobile.html %}
+  
+  <!-- Menu -->  
+  {% include overlay-menu.html %}
+  <!-- End Menu --> 
+
+  {{ content }}
+  </div>
+</body>
+
+<!-- Scripts -->
+{% include scripts.html %}
+<!-- End Scripts -->
+
+</html>
