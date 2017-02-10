@@ -2,12 +2,12 @@
 title: Helen Lawrence
 timezone: UTC
 collections:
-  collections:
-    title: Collections
-    output: true
   collaborations:
     title: Collaborations
     output: false
+  collections:
+    title: Collections
+    output: true
   posts:
     title: Posts
     output: true
