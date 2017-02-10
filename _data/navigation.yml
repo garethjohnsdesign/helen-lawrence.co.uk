@@ -1,42 +1,57 @@
 - title: Collections
   url: /collections/
   sublinks:
-    - title: Autumn Winter 2017 / Men
-      url: /autumn-winter-2017-men/
-    - title: Spring Summer 2017
-      url: /spring-summer-2017/
-    - title: Autumn Winter 2016
-      url: /autumn-winter-2016/
-    - title: Spring Summer 2016
-      url: /spring-summer-2016/
-    - title: Autumn Winter 2015
-      url: /autumn-winter-2015/
-    - title: Spring Summer 2015
-      url: /spring-summer-2015/
-    - title: Autumn Winter 2014
-      url: /autumn-winter-2014/
-    - title: Spring Summer 2014
-      url: /spring-summer-2014/
+    - title: AW/2017 - Men
+      url: /collections/aw17-men/
+    - title: SS/2017 - Film
+      url: /collections/ss17-film/
+    - title: SS/2017 - Lookbook
+      url: /collections/ss17-lookbook/
+      
+    - title: AW/2016 - Film
+      url: /collections/aw16-film/
+    - title: AW/2016 - Lookbook
+      url: /collections/aw16-lookbook/
+    - title: AW/2016 - Presentation
+      url: /collections/aw16-presentation/
+      
+    - title: SS/2016 - Lookbook
+      url: /collections/ss16-lookbook/
+    - title: SS/2016 - Presentation
+      url: /collections/ss16-presentation/
+      
+    - title: AW/2015 - Looks
+      url: /collections/aw15-looks/
+    - title: AW/2015 - Presentation
+      url: /collections/aw15-presentation/
+      
+    - title: SS/2015 - Backstage
+      url: /collections/ss15-backstage/
+    - title: SS/2015 - Catwalk
+      url: /collections/ss15-catwalk/
+      
+    - title: AW/2014 - Backstage
+      url: /collections/aw14-backstage/
+    - title: AW/2014 - Catwalk
+      url: /collections/aw14-catwalk/
+    - title: AW/2014 - Lookbook
+      url: /collections/aw14-lookbook/
+      
+    - title: SS/2014 - Catwalk
+      url: /collections/ss14-catwalk/
+    - title: SS/2014 - Lookbook
+      url: /collections/ss14-lookbook/
+      
+
       
 - title: Collaborations
-  url: /Collaborations/
+  url: /collaborations/
   sublinks:
-    - title: Autumn Winter 2017 / Men
-      url: /autumn-winter-2017-men/
-    - title: Spring Summer 2017
-      url: /spring-summer-2017/
-    - title: Autumn Winter 2016
-      url: /autumn-winter-2016/
-    - title: Spring Summer 2016
-      url: /spring-summer-2016/
-    - title: Autumn Winter 2015
-      url: /autumn-winter-2015/
-    - title: Spring Summer 2015
-      url: /spring-summer-2015/
-    - title: Autumn Winter 2014
-      url: /autumn-winter-2014/
-    - title: Spring Summer 2014
-      url: /spring-summer-2014/
-  
-- title: Info
-  url: /info/
+    - title: Craig Green
+      url: /collaborations/craig-green-aw13
+    - title: Kult Domini
+      url: /collaborations/kult-domini
+    - title: Lily Kamper
+      url: /collaborations/lily-kamper/
+    - title: Slim Barrett
+      url: /collaborations/slim-barrett/

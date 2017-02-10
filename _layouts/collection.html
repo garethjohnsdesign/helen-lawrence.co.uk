@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<!-- Content -->
+<div class="row page__content">
+  <div class="small-10 medium-10 columns">
+    {{ page.content | markdownify }}
+  </div>
+</div>
+<!-- End Content -->
+
+
+
+
+<!-- Index -->
+<section class="index">
+  <div class="row expanded columns carousel align-center">
+    <div class="small-11 medium-5 large-4 xxlarge-4 columns align-self-middle">
+      
+      <div class="orbit" role="region" aria-label="Featured Artists" data-orbit>
+<!--       <div class="orbit" role="region" aria-label="Featured Artists" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;"> -->
+        <ul class="orbit-container">
+          
+          <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>←</button>
+          <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&rarr;</button>
+          
+          {% for image in page.images %}
+          <li class="orbit-slide">
+            <img class="orbit-image" src="{{ image }}" alt="">
+          </li>
+          {% endfor %}
+          
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End Index -->
