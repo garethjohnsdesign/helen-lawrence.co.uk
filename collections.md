@@ -1,6 +1,6 @@
 ---
-title: Releases
+title: Collections
 position: 1
-layout: releases
+layout: collections
 ---
 

@@ -2,7 +2,7 @@
 
 <nav>
 <ul class="menu vertical">
-<li class="top-bar__logo"><a href="/" class="animsition-link"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a></li>
+<li class="top-bar__logo"><a href="/" class="animsition-link">{{ site.title }}</a></li>
 
 {% for entry in site.data.navigation %}
 {% if entry.url == current_page %}

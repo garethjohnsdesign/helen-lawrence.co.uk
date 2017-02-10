@@ -363,10 +363,16 @@
 		"oAP": "\/_includes\/socials.html",
 		"oF": 0
 		},
-	"\/_layouts\/artists.html": {
+	"\/_layouts\/collaborations.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/artists.html",
+		"oAP": "\/_layouts\/collaborations.html",
+		"oF": 0
+		},
+	"\/_layouts\/collections.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/collections.html",
 		"oF": 0
 		},
 	"\/_layouts\/default.html": {
@@ -397,12 +403,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_layouts\/page.html",
-		"oF": 0
-		},
-	"\/_layouts\/releases.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/releases.html",
 		"oF": 0
 		},
 	"\/_layouts\/videos.html": {
@@ -6232,12 +6232,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/README.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/README.html",
-		"oF": 0
-		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -6261,24 +6255,6 @@
 		"oA": 2,
 		"oAP": "\/robots.txt",
 		"oF": 0
-		},
-	"\/videos.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/videos.md",
-		"oF": 1,
-		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		}
 	},
 "hooks": [

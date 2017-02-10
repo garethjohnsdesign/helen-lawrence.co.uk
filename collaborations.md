@@ -1,6 +1,6 @@
 ---
-title: Artists
+title: Collaborations
 position: 2
-layout: artists
+layout: collaborations
 ---
 

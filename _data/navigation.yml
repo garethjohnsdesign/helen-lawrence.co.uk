@@ -1,11 +1,42 @@
-- title: Releases
-  url: /releases/
+- title: Collections
+  url: /collections/
+  sublinks:
+    - title: Autumn Winter 2017 / Men
+      url: /autumn-winter-2017-men/
+    - title: Spring Summer 2017
+      url: /spring-summer-2017/
+    - title: Autumn Winter 2016
+      url: /autumn-winter-2016/
+    - title: Spring Summer 2016
+      url: /spring-summer-2016/
+    - title: Autumn Winter 2015
+      url: /autumn-winter-2015/
+    - title: Spring Summer 2015
+      url: /spring-summer-2015/
+    - title: Autumn Winter 2014
+      url: /autumn-winter-2014/
+    - title: Spring Summer 2014
+      url: /spring-summer-2014/
       
-- title: Artists
-  url: /artists/
+- title: Collaborations
+  url: /Collaborations/
+  sublinks:
+    - title: Autumn Winter 2017 / Men
+      url: /autumn-winter-2017-men/
+    - title: Spring Summer 2017
+      url: /spring-summer-2017/
+    - title: Autumn Winter 2016
+      url: /autumn-winter-2016/
+    - title: Spring Summer 2016
+      url: /spring-summer-2016/
+    - title: Autumn Winter 2015
+      url: /autumn-winter-2015/
+    - title: Spring Summer 2015
+      url: /spring-summer-2015/
+    - title: Autumn Winter 2014
+      url: /autumn-winter-2014/
+    - title: Spring Summer 2014
+      url: /spring-summer-2014/
   
-- title: Videos
-  url: /videos/
-
 - title: Info
   url: /info/
