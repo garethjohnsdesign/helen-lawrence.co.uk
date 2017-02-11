@@ -219,10 +219,10 @@
 		"oAP": "\/_includes\/icons.html",
 		"oF": 0
 		},
-	"\/_includes\/navigation copy.html": {
+	"\/_includes\/navigation-canvas.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_includes\/navigation copy.html",
+		"oAP": "\/_includes\/navigation-canvas.html",
 		"oF": 0
 		},
 	"\/_includes\/navigation-mobile.html": {
@@ -283,12 +283,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/collections.html",
-		"oF": 0
-		},
-	"\/_layouts\/default copy.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/default copy.html",
 		"oF": 0
 		},
 	"\/_layouts\/default.html": {
@@ -2813,32 +2807,66 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/SpaceMono-Regular.eot": {
+	"\/assets\/fonts\/Montserrat-Bold.eot": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/SpaceMono-Regular.eot",
+		"oAP": "\/assets\/fonts\/Montserrat-Bold.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/SpaceMono-Regular.svg": {
+	"\/assets\/fonts\/Montserrat-Bold.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/SpaceMono-Regular.svg",
+		"oAP": "\/assets\/fonts\/Montserrat-Bold.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/SpaceMono-Regular.ttf": {
+	"\/assets\/fonts\/Montserrat-Bold.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/SpaceMono-Regular.ttf",
+		"oAP": "\/assets\/fonts\/Montserrat-Bold.ttf",
 		"oF": 0
 		},
-	"\/assets\/fonts\/SpaceMono-Regular.woff": {
+	"\/assets\/fonts\/Montserrat-Bold.woff": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/SpaceMono-Regular.woff",
+		"oAP": "\/assets\/fonts\/Montserrat-Bold.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Solanel-Medium.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Solanel-Medium.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Solanel-Medium.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Solanel-Medium.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Solanel-Medium.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Solanel-Medium.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/Solanel-Medium.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Solanel-Medium.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Solanel-Medium.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Solanel-Medium.woff",
 		"oF": 0
 		},
 	"\/assets\/icons\/symbol-defs.svg": {
@@ -7896,10 +7924,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/collaborations.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/collaborations.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -7914,10 +7942,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/collections.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/collections.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
