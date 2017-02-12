@@ -311,7 +311,7 @@
 		},
 	"\/_layouts\/page.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_layouts\/page.html",
 		"oF": 0
 		},
@@ -3844,7 +3844,7 @@
 	"\/bower_components\/flickity\/dist\/flickity.pkgd.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/flickity\/dist\/flickity.pkgd.js",
 		"oF": 0,
 		"sC": 1,
@@ -8291,10 +8291,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/index.md",
-		"oF": 1,
-		"oFM": 9,
+		"oA": 0,
+		"oAP": "\/index.html",
+		"oF": 0,
+		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8309,10 +8309,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/info.md",
-		"oF": 1,
-		"oFM": 9,
+		"oA": 0,
+		"oAP": "\/info.html",
+		"oF": 0,
+		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8369,6 +8369,12 @@
 		"oAP": "\/robots.txt",
 		"oF": 0
 		},
+	"\/stockists.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/stockists.html",
+		"oF": 0
+		},
 	"\/stockists.md": {
 		"cS": 0,
 		"eF": 1,
@@ -8391,38 +8397,6 @@
 "hooks": [
 	],
 "manualImportLinks": {
-	"\/assets\/js\/app.js": [
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.js",
-			"position": 0,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/motion-ui\/dist\/motion-ui.js",
-			"position": 1,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/js\/foundation.js",
-			"position": 2,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/flickity\/dist\/flickity.pkgd.js",
-			"position": 3,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/animsition\/dist\/js\/animsition.js",
-			"position": 4,
-			"type": 0
-			}
-		]
 	},
 "projectAttributes": {
 	"creationDate": 499792706,
