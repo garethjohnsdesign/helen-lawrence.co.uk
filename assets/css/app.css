@@ -8577,9 +8577,6 @@ http://flickity.metafizzy.co
   /* vertically center */
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%); }
-  @media screen and (max-width: 39.9375em) {
-    .flickity-prev-next-button {
-      display: none; } }
 
 .flickity-prev-next-button:focus {
   outline: none;
@@ -8751,24 +8748,42 @@ i, cite, em, var, address, dfn {
 
 .info {
   padding: 2rem; }
+  @media screen and (max-width: 39.9375em) {
+    .info {
+      padding: 1rem; } }
 
 footer {
   padding: 2rem; }
+  @media screen and (max-width: 39.9375em) {
+    footer {
+      padding: 1rem; } }
 
 .footer_socials {
   z-index: 1000; }
 
 .top-bar-right-mobile {
+  padding-top: 9px;
   z-index: 1000; }
 
 .off-canvas {
   padding: 2rem; }
+  @media screen and (max-width: 39.9375em) {
+    .off-canvas {
+      padding: 1rem; } }
+
+@media screen and (max-width: 39.9375em) {
+  .top-bar {
+    padding: 1rem; } }
 
 .nav__title {
   font-family: "Montserrat-Bold", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1.25rem;
   letter-spacing: 0.25rem;
   padding: 0rem; }
+
+@media screen and (max-width: 39.9375em) {
+  .position-right {
+    width: 300px; } }
 
 .carousel {
   background: #fefefe; }

@@ -61,11 +61,17 @@ i, cite, em, var, address, dfn {
 // ------
 
 .info {
-  padding: 2rem;  
+  padding: 2rem; 
+        @include breakpoint(small only) {
+  padding: 1rem;
+  }
 }
 
 footer {
   padding: 2rem;
+        @include breakpoint(small only) {
+  padding: 1rem;
+  }
 }
 
 .footer_socials {
@@ -76,11 +82,21 @@ footer {
 // -------------
 
 .top-bar-right-mobile {
+  padding-top: 9px;
   z-index: 1000;
 }
 
 .off-canvas {
   padding: 2rem;
+      @include breakpoint(small only) {
+  padding: 1rem;
+  }
+}
+
+.top-bar {
+   @include breakpoint(small only) {
+  padding: 1rem;
+  }
 }
 
 .nav__title {
@@ -89,6 +105,12 @@ footer {
   font-size: 1.25rem;
   letter-spacing: 0.25rem;
   padding: 0rem;
+}
+
+.position-right {
+    @include breakpoint(small only) {
+  width:300px;
+  }
 }
 
 .carousel {
