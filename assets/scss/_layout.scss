@@ -41,12 +41,6 @@ img {
   color: $color--white;
 }
 
-/*
-.index .columns {
-  transition: $primary-transition;
-}
-*/
-
 a { 
   transition: $primary-transition;
 }
@@ -66,29 +60,58 @@ i, cite, em, var, address, dfn {
 // 3. 404
 // ------
 
+.info {
+  padding: 2rem;  
+}
+
+footer {
+  padding: 2rem;
+}
 
 // 4. Navigation
 // -------------
-
-.nav__title {
-  @include button(false, transparent, transparent, $black, solid);
-  font-family: $header-font-family;
-  font-size: 1.5rem;
-  letter-spacing: 0.25rem;
-  padding: 0rem;
-}
-
-.info {
-  padding: 1rem;
-}
 
 .top-bar-right-mobile {
   z-index: 1000;
 }
 
+.off-canvas {
+  padding: 2rem;
+}
+
+.nav__title {
+  @include button(false, transparent, transparent, $black, solid);
+  font-family: $header-font-family;
+  font-size: 1.25rem;
+  letter-spacing: 0.25rem;
+  padding: 0rem;
+}
+
 .carousel {
-  height: calc(100vh - 200px);
-  @include breakpoint(small only) {
-    height: calc(100vh - 200px);
-  	}
+  background: $white;
+}
+
+.carousel-cell {
+  width: 100%;
+  height: calc(100vh - 190px);
+  /* flex-box, center image in cell */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+
+.carousel-cell img {
+  display: block;
+  max-width: 100%;
+  max-height: calc(100vh - 190px);
+}
+
+/* brighten selected image */
+.carousel-cell.is-selected img {
+  opacity: 1;
 }

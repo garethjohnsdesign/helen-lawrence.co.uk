@@ -14,8 +14,8 @@
     "what-input": "^2.1.0",
     "wow": "wowjs#^1.1.2",
     "animsition": "^4.0.2",
-    "wallop": "^2.4.1",
-    "svgxuse": "^1.1.23"
+    "svgxuse": "^1.1.23",
+    "flickity": "^2.0.5"
   },
   "ignore": [
     "**/.*",
@@ -24,5 +24,8 @@
     "test",
     "tests"
   ],
-  "private": true
+  "private": true,
+  "resolutions": {
+    "what-input": "~4.0.3"
+  }
 }

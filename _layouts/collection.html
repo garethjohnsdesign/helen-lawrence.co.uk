@@ -2,25 +2,12 @@
 layout: default
 ---
 
-<section class="collection">
-  <div class="row expanded columns carousel align-center">
-    <div class="small-11 medium-5 large-4 columns align-self-middle">
-      
-<div class="orbit" role="region" aria-label="Featured Artists" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
-        <ul class="orbit-container">
-          
-          <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>←</button>
-          <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&rarr;</button>
-          
-          {% for image in page.images %}
-          <li class="orbit-slide">
-            <img class="orbit-image" src="{{ image }}" alt="">
-          </li>
-          {% endfor %}
-          
-        </ul>
-      </div>
-
-    </div>
+<!-- Flickity HTML init -->
+<div class="carousel">
+{% for image in page.images %}    
+  <div class="carousel-cell">
+    <img src="{{ image }}" alt="orange tree" />
   </div>
-</section>
+{% endfor %}
+</div>
+
