@@ -1,0 +1,17 @@
+<ul class="vertical menu" data-accordion-menu>
+      {% for entry in site.data.navigation %}
+      {% assign sublinks = entry.sublinks %}
+      {% if sublinks %}
+      <li{{ current }}>
+      <a href="{{ site.baseurl }}{{ entry.url }}" class="uppercase">{{ entry.title }}</a>
+      <ul class="menu vertical nested">
+      {% for sublink in sublinks %}
+      <li><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
+      {% endfor %}
+      </ul>
+      </li>
+      {% else %}
+      <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="uppercase">{{ entry.title }}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>

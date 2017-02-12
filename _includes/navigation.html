@@ -1,0 +1,17 @@
+{% for entry in site.data.navigation %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
+
+<div class="top-bar row expanded collapse align-middle">
+  
+  <div class="expand columns">
+    <a href="/" class="uppercase nav__title">{{ site.title }}</a>
+  </div>
+  
+  <div class="shrink columns text-right top-bar-right-mobile">
+    <button class="hamburger hamburger--collapse" id="toggle" data-toggler=".is-active" type="button" data-toggle="offCanvas toggle">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+  </div>
+  
+</div>

@@ -1,0 +1,23 @@
+<ul class="menu vertical">
+  {% if artist.facebook %}
+  <li><a href="{{artist.facebook}}">Facebook</a></li>
+  {% endif %}
+  {% if artist.twitter %}
+  <li><a href="{{artist.twitter}}">Twitter</a></li>
+  {% endif %}
+  {% if artist.instagram %}
+  <li><a href="{{artist.instagram}}">Instagram</a></li>
+  {% endif %}
+  {% if artist.spotify %}
+  <li><a href="{{artist.spotify}}">Spotify</a></li>
+  {% endif %}
+  {% if artist.soundcloud %}
+  <li><a href="{{artist.soundcloud}}">Soundcloud</a></li>
+  {% endif %}
+  {% if artist.youtube %}
+  <li><a href="{{artist.youtube}}">YouTube</a></li>
+  {% endif %}
+  {% if artist.apple %}
+  <li><a href="{{artist.apple}}">Apple</a></li>
+  {% endif %}
+</ul>
