@@ -68,6 +68,10 @@ footer {
   padding: 2rem;
 }
 
+.footer_socials {
+  z-index: 1000;
+}
+
 // 4. Navigation
 // -------------
 
@@ -80,7 +84,7 @@ footer {
 }
 
 .nav__title {
-  @include button(false, transparent, transparent, $black, solid);
+//   @include button(false, transparent, transparent, $black, solid);
   font-family: $header-font-family;
   font-size: 1.25rem;
   letter-spacing: 0.25rem;

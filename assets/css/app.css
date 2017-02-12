@@ -8755,6 +8755,9 @@ i, cite, em, var, address, dfn {
 footer {
   padding: 2rem; }
 
+.footer_socials {
+  z-index: 1000; }
+
 .top-bar-right-mobile {
   z-index: 1000; }
 
@@ -8762,29 +8765,10 @@ footer {
   padding: 2rem; }
 
 .nav__title {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0 0 1rem 0;
-  padding: 0.85em 1em;
-  -webkit-appearance: none;
-  border: 1px solid transparent;
-  border-radius: 0;
-  transition: background-color 0.25s ease-out, color 0.25s ease-out;
-  font-size: 0.9rem;
-  line-height: 1;
-  text-align: center;
-  cursor: pointer;
-  background-color: transparent;
-  color: #0a0a0a;
   font-family: "Montserrat-Bold", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1.25rem;
   letter-spacing: 0.25rem;
   padding: 0rem; }
-  [data-whatinput='mouse'] .nav__title {
-    outline: 0; }
-  .nav__title:hover, .nav__title:focus {
-    background-color: transparent;
-    color: #0a0a0a; }
 
 .carousel {
   background: #fefefe; }

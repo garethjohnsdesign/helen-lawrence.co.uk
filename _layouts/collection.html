@@ -2,7 +2,19 @@
 layout: default
 ---
 
-<!-- Flickity HTML init -->
+<!-- Project Video -->
+{% if page.video %}
+<div class="row align-center project__video">
+  <div class="small-12 medium-9 large-9 columns">
+    <div class="responsive-embed widescreen">
+      <iframe src="https://player.vimeo.com/video/{{ page.video }}?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+{% endif %}
+<!-- End Project Video -->
+
+{% if page.images %}
 <div class="carousel">
 {% for image in page.images %}    
   <div class="carousel-cell">
@@ -10,4 +22,4 @@ layout: default
   </div>
 {% endfor %}
 </div>
-
+{% endif %}
