@@ -1,6 +1,6 @@
 # Helen Lawrence
 
-Website for House Anxiety. Please go to [helen-lawrence.co.uk](http://helen-lawrence.co.uk) in case you want to take a look at the website.
+Website for Helen Lawrence. Please go to [helen-lawrence.co.uk](http://helen-lawrence.co.uk) in case you want to take a look at the website.
 
 * * *
 
