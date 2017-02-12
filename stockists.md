@@ -4,24 +4,24 @@ position: 4
 layout: page
 ---
 
-##### UK
+UK
 
 [Dover Street Market, London](http://www.doverstreetmarket.com)  
 [Selfridges, London](http://www.selfridges.com/GB/en/)
 
-##### Europe
+Europe
 
 [Penelope, Brescia](http://www.penelope-store.it)  
 [L’Eclaireur, Paris](http://www.leclaireur.com)
 
-##### USA
+USA
 
 [Dover Street Market, New York](http://newyork.doverstreetmarket.com)  
 [Opening Ceremony, New York](https://www.openingceremony.com)  
 [Opening Ceremony, Los Angeles](https://www.openingceremony.com)  
 [H.Lorenzo, Los Angeles](https://shop.hlorenzo.com)
 
-##### Asia
+Asia
 
 [Boon the Shop, Seoul](http://boontheshop.com)  
 [Opening Ceremony, Tokyo ](http://www.openingceremonyjapan.com)  
@@ -29,7 +29,7 @@ layout: page
 [Sanlipop, Beijing ](http://www.sanlipop.com)  
 [Fame and Glory/D-Mop, Hong Kong](http://www.d-mop.com)
 
-##### Online
+Online
 
 [Young British Designers](https://www.youngbritishdesigners.com)  
 [Opening Ceremony](https://www.openingceremony.com)
