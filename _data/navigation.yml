@@ -1,63 +1,86 @@
-- title: Collections
-  url: /collections/
+collections:
+- title: AW/17
+  url: /
   sublinks:
-    - title: AW/2017 - Men
+    - title: Men
       url: /collections/aw17-men/
-    - title: SS/2017 - Film
-      url: /collections/ss17-film/
-    - title: SS/2017 - Lookbook
-      url: /collections/ss17-lookbook/
-      
-    - title: AW/2016 - Film
-      url: /collections/aw16-film/
-    - title: AW/2016 - Lookbook
-      url: /collections/aw16-lookbook/
-    - title: AW/2016 - Presentation
-      url: /collections/aw16-presentation/
-      
-    - title: SS/2016 - Lookbook
-      url: /collections/ss16-lookbook/
-    - title: SS/2016 - Presentation
-      url: /collections/ss16-presentation/
-      
-    - title: AW/2015 - Looks
-      url: /collections/aw15-looks/
-    - title: AW/2015 - Presentation
-      url: /collections/aw15-presentation/
-      
-    - title: SS/2015 - Backstage
-      url: /collections/ss15-backstage/
-    - title: SS/2015 - Catwalk
-      url: /collections/ss15-catwalk/
-      
-    - title: AW/2014 - Backstage
-      url: /collections/aw14-backstage/
-    - title: AW/2014 - Catwalk
-      url: /collections/aw14-catwalk/
-    - title: AW/2014 - Lookbook
-      url: /collections/aw14-lookbook/
-      
-    - title: SS/2014 - Catwalk
-      url: /collections/ss14-catwalk/
-    - title: SS/2014 - Lookbook
-      url: /collections/ss14-lookbook/
-      
-
-      
-- title: Collaborations
-  url: /collaborations/
+- title: SS/17
+  url: /
   sublinks:
-    - title: Craig Green
+    - title: Film
+      url: /collections/ss17-film/
+    - title: Lookbook
+      url: /collections/ss17-lookbook/
+- title: AW/16
+  url: /
+  sublinks:
+    - title: Film
+      url: /collections/aw16-film/
+    - title: Lookbook
+      url: /collections/aw16-lookbook/
+    - title: Presentation
+      url: /collections/aw16-presentation/
+- title: SS/16
+  url: /
+  sublinks:
+    - title: Lookbook
+      url: /collections/ss16-lookbook/
+    - title: Presentation
+      url: /collections/ss16-presentation/
+- title: AW/15
+  url: /
+  sublinks:
+    - title: Looks
+      url: /collections/aw15-looks/
+    - title: Presentation
+      url: /collections/aw15-presentation/
+- title: SS/15
+  url: /
+  sublinks:
+    - title: Backstage
+      url: /collections/ss15-backstage/
+    - title: Catwalk
+      url: /collections/ss15-catwalk/
+- title: AW/14
+  url: /
+  sublinks:
+    - title: Backstage
+      url: /collections/aw14-backstage/
+    - title: Catwalk
+      url: /collections/aw14-catwalk/
+    - title: Lookbook
+      url: /collections/aw14-lookbook/
+- title: SS/14
+  url: /
+  sublinks:
+    - title: Catwalk
+      url: /collections/ss14-catwalk/
+    - title: Lookbook
+      url: /collections/ss14-lookbook/
+
+collaborations:    
+- title: Craig Green
+  url: /
+  sublinks:
+    - title: SS/13
+      url: /collaborations/craig-green-ss13
+    - title: AW/13
       url: /collaborations/craig-green-aw13
-    - title: Kult Domini AW/2015
+    - title: SS/14
+      url: /collaborations/craig-green-ss14
+    - title: AW/14
+      url: /collaborations/craig-green-aw14
+
+- title: Kult Domini
+  url: /
+  sublinks:
+    - title: AW/15
       url: /collaborations/kult-domini-aw15
-    - title: Kult Domini SS/2015
+    - title: SS/15
       url: /collaborations/kult-domini-ss15
-    - title: Lily Kamper
-      url: /collaborations/lily-kamper/
-    - title: Slim Barrett
-      url: /collaborations/slim-barrett/
+
+- title: Slim Barrett
+  url: /collaborations/slim-barrett/
   
-- title: Contact
-  url: /contact/
-  
+- title: Lily Kamper
+  url: /collaborations/lily-kamper/

@@ -5,26 +5,24 @@
 {% include head.html %}
 <!-- End Head -->
 
-<body>
+<body class="{{page.title | slugify}} animated fadeIn">
 
-<div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap">
-
+<div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap" data-close-on-click="false">
 {% include navigation-canvas.html %}
+</div>
 
-  </div>
+<div class="off-canvas-content" data-off-canvas-content>
+{% include navigation.html %}
 
+<!-- Menu -->  
+{% include overlay-menu.html %}
+<!-- End Menu --> 
 
-  <div class="off-canvas-content" data-off-canvas-content>
-  {% include navigation.html %}
-  
-  <!-- Menu -->  
-  {% include overlay-menu.html %}
-  <!-- End Menu --> 
+{{ content }}
 
-  {{ content }}
-  
-  {% include footer.html %}
-  </div>
+{% include footer.html %}
+</div>
+
 </body>
 
 <!-- Scripts -->
