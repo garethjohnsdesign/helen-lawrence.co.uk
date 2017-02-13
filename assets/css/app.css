@@ -8809,3 +8809,6 @@ footer {
 /* brighten selected image */
 .carousel-cell.is-selected img {
   opacity: 1; }
+
+.project__status {
+  padding: 1rem; }

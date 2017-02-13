@@ -1,45 +1,45 @@
 - title: Collections
   url: /collections/
   sublinks:
-    - title: AW/2017 - Men
+    - title: AW/17 - Men
       url: /collections/aw17-men/
-    - title: SS/2017 - Film
+    - title: SS/17 - Film
       url: /collections/ss17-film/
-    - title: SS/2017 - Lookbook
+    - title: SS/17 - Lookbook
       url: /collections/ss17-lookbook/
       
-    - title: AW/2016 - Film
+    - title: AW/16 - Film
       url: /collections/aw16-film/
-    - title: AW/2016 - Lookbook
+    - title: AW/16 - Lookbook
       url: /collections/aw16-lookbook/
-    - title: AW/2016 - Presentation
+    - title: AW/16 - Presentation
       url: /collections/aw16-presentation/
       
-    - title: SS/2016 - Lookbook
+    - title: SS/16 - Lookbook
       url: /collections/ss16-lookbook/
-    - title: SS/2016 - Presentation
+    - title: SS/16 - Presentation
       url: /collections/ss16-presentation/
       
-    - title: AW/2015 - Looks
+    - title: AW/15 - Looks
       url: /collections/aw15-looks/
-    - title: AW/2015 - Presentation
+    - title: AW/15 - Presentation
       url: /collections/aw15-presentation/
       
-    - title: SS/2015 - Backstage
+    - title: SS/15 - Backstage
       url: /collections/ss15-backstage/
-    - title: SS/2015 - Catwalk
+    - title: SS/15 - Catwalk
       url: /collections/ss15-catwalk/
       
-    - title: AW/2014 - Backstage
+    - title: AW/14 - Backstage
       url: /collections/aw14-backstage/
-    - title: AW/2014 - Catwalk
+    - title: AW/14 - Catwalk
       url: /collections/aw14-catwalk/
-    - title: AW/2014 - Lookbook
+    - title: AW/14 - Lookbook
       url: /collections/aw14-lookbook/
       
-    - title: SS/2014 - Catwalk
+    - title: SS/14 - Catwalk
       url: /collections/ss14-catwalk/
-    - title: SS/2014 - Lookbook
+    - title: SS/14 - Lookbook
       url: /collections/ss14-lookbook/
       
 
@@ -47,11 +47,17 @@
 - title: Collaborations
   url: /collaborations/
   sublinks:
-    - title: Craig Green
+    - title: SS/13 - Craig Green
+      url: /collaborations/craig-green-ss13
+    - title: AW/13 - Craig Green
       url: /collaborations/craig-green-aw13
-    - title: Kult Domini AW/2015
+    - title: SS/14 - Craig Green
+      url: /collaborations/craig-green-ss14
+    - title: AW/14 - Craig Green
+      url: /collaborations/craig-green-aw14
+    - title: AW/15 - Kult Domini
       url: /collaborations/kult-domini-aw15
-    - title: Kult Domini SS/2015
+    - title: SS/15 - Kult Domini
       url: /collaborations/kult-domini-ss15
     - title: Lily Kamper
       url: /collaborations/lily-kamper/
