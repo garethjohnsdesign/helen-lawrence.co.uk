@@ -88,6 +88,7 @@ footer {
 
 .off-canvas {
   padding: 2rem;
+  font-size: 1.5rem;
       @include breakpoint(small only) {
   padding: 1rem;
   }
@@ -144,4 +145,39 @@ footer {
 
 .project__status {
   padding: 1rem;
+}
+
+
+.contact {
+    background: $black;
+    color: $white;
+    a { 
+    color: $white; 
+    }
+  }
+  
+.contact .hamburger-inner {
+  &,
+  &::before,
+  &::after {
+    background-color: $white;
+  }
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+  }
+}
+
+.contact .off-canvas {
+  background: $black;
+}
+
+.off-canvas {
+  border-left: $black 1px solid;
+}
+
+.contact .off-canvas {
+  border-left: $white 1px solid;
 }

@@ -1,0 +1,69 @@
+- title: Collections
+  url: /collections/
+  sublinks:
+    - title: AW/17 - Men
+      url: /collections/aw17-men/
+    - title: SS/17 - Film
+      url: /collections/ss17-film/
+    - title: SS/17 - Lookbook
+      url: /collections/ss17-lookbook/
+      
+    - title: AW/16 - Film
+      url: /collections/aw16-film/
+    - title: AW/16 - Lookbook
+      url: /collections/aw16-lookbook/
+    - title: AW/16 - Presentation
+      url: /collections/aw16-presentation/
+      
+    - title: SS/16 - Lookbook
+      url: /collections/ss16-lookbook/
+    - title: SS/16 - Presentation
+      url: /collections/ss16-presentation/
+      
+    - title: AW/15 - Looks
+      url: /collections/aw15-looks/
+    - title: AW/15 - Presentation
+      url: /collections/aw15-presentation/
+      
+    - title: SS/15 - Backstage
+      url: /collections/ss15-backstage/
+    - title: SS/15 - Catwalk
+      url: /collections/ss15-catwalk/
+      
+    - title: AW/14 - Backstage
+      url: /collections/aw14-backstage/
+    - title: AW/14 - Catwalk
+      url: /collections/aw14-catwalk/
+    - title: AW/14 - Lookbook
+      url: /collections/aw14-lookbook/
+      
+    - title: SS/14 - Catwalk
+      url: /collections/ss14-catwalk/
+    - title: SS/14 - Lookbook
+      url: /collections/ss14-lookbook/
+      
+
+      
+- title: Collaborations
+  url: /collaborations/
+  sublinks:
+    - title: SS/13 - Craig Green
+      url: /collaborations/craig-green-ss13
+    - title: AW/13 - Craig Green
+      url: /collaborations/craig-green-aw13
+    - title: SS/14 - Craig Green
+      url: /collaborations/craig-green-ss14
+    - title: AW/14 - Craig Green
+      url: /collaborations/craig-green-aw14
+    - title: AW/15 - Kult Domini
+      url: /collaborations/kult-domini-aw15
+    - title: SS/15 - Kult Domini
+      url: /collaborations/kult-domini-ss15
+    - title: Lily Kamper
+      url: /collaborations/lily-kamper/
+    - title: Slim Barrett
+      url: /collaborations/slim-barrett/
+  
+- title: Contact
+  url: /contact/
+  

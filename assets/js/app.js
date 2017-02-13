@@ -1,9 +1,6 @@
 $(document).foundation();
 
-
 $('.carousel').flickity({
-  // options
-//   imagesLoaded: true,
   pageDots: false,
   cellAlign: 'center',
   draggable: true,
@@ -22,3 +19,42 @@ function updateStatus() {
 updateStatus();
 $carousel.on( 'select.flickity', updateStatus );
 }
+
+
+/*
+$(function(){
+'use strict';
+var $page = $('#main'),
+  options = {
+    debug: true,
+    prefetch: true,
+    cacheLength: 2,
+    onStart: {
+      duration: 250, // Duration of our animation
+      render: function ($container) {
+        // Add your CSS animation reversing class
+        $container.addClass('is-exiting');
+        // Restart your animation
+        smoothState.restartCSSAnimations();
+      }
+    },
+    onReady: {
+      duration: 0,
+      render: function ($container, $newContent) {
+        // Remove your CSS animation reversing class
+        $container.removeClass('is-exiting');
+        // Inject the new content
+        $container.html($newContent);
+        // $container.onPageLoad();
+      }
+    },
+    onAfter: function($container) {
+        $(document).foundation();
+// This is where you initialize foundation
+        $container.onPageLoad(); // all other scripts inside this function          
+    }
+  },
+  smoothState = $page.smoothState(options).data('smoothState');  
+
+});
+*/
