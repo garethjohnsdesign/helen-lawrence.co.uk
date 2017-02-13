@@ -51,10 +51,16 @@
 		"oAP": "\/_collaborations\/craig-green-ss14.markdown",
 		"oF": 0
 		},
-	"\/_collaborations\/kult-domini.markdown": {
+	"\/_collaborations\/kult-domini-aw15.markdown": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_collaborations\/kult-domini.markdown",
+		"oAP": "\/_collaborations\/kult-domini-aw15.markdown",
+		"oF": 0
+		},
+	"\/_collaborations\/kult-domini-ss15.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_collaborations\/kult-domini-ss15.markdown",
 		"oF": 0
 		},
 	"\/_collaborations\/lily-kamper.markdown": {
@@ -1372,6 +1378,54 @@
 		"iS": 202123,
 		"oA": 0,
 		"oAP": "\/_uploads\/index\/helen-lawrence-index.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/kult-domini\/aw15\/helen-lawrence-kult-domini-aw15-01.jpg": {
+		"ft": 16384,
+		"iS": 224885,
+		"oA": 0,
+		"oAP": "\/_uploads\/kult-domini\/aw15\/helen-lawrence-kult-domini-aw15-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/kult-domini\/aw15\/helen-lawrence-kult-domini-aw15-02.jpg": {
+		"ft": 16384,
+		"iS": 172314,
+		"oA": 0,
+		"oAP": "\/_uploads\/kult-domini\/aw15\/helen-lawrence-kult-domini-aw15-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/kult-domini\/aw15\/helen-lawrence-kult-domini-aw15-03.jpg": {
+		"ft": 16384,
+		"iS": 116965,
+		"oA": 0,
+		"oAP": "\/_uploads\/kult-domini\/aw15\/helen-lawrence-kult-domini-aw15-03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/kult-domini\/aw15\/helen-lawrence-kult-domini-aw15-04.jpg": {
+		"ft": 16384,
+		"iS": 117208,
+		"oA": 0,
+		"oAP": "\/_uploads\/kult-domini\/aw15\/helen-lawrence-kult-domini-aw15-04.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/kult-domini\/aw15\/helen-lawrence-kult-domini-aw15-05.jpg": {
+		"ft": 16384,
+		"iS": 258212,
+		"oA": 0,
+		"oAP": "\/_uploads\/kult-domini\/aw15\/helen-lawrence-kult-domini-aw15-05.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/kult-domini\/aw15\/helen-lawrence-kult-domini-aw15-06.jpg": {
+		"ft": 16384,
+		"iS": 155045,
+		"oA": 0,
+		"oAP": "\/_uploads\/kult-domini\/aw15\/helen-lawrence-kult-domini-aw15-06.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2908,6 +2962,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/icons\/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
