@@ -4,21 +4,13 @@ position: 4
 layout: info
 ---
 
-Helen Lawrence hails from Whitley Bay, outside of Newcastle-upon- Tyne.
-
-She gained a textile degree at Chelsea College of Art & Design before going onto the MA Fashion at Central Saint Martins, graduating in 2012.
-She soon started collaborating with CSM classmate and menswear talent Craig Green on his covetable knitwear.
-
-All fabrics are created by Helen in-house.
-
-Unit 3\
-Zero Belfast Road\
-\(Opposite 1a)\
-N16 6UH
-
-\+44 (0)79 6964 5783\
+[press@helen-lawrence.co.uk](mailto:press@helen-lawrence.co.uk)\
+[sales@helen-lawrence.co.uk](mailto:sales@helen-lawrence.co.uk)\
 [info@helen-lawrence.co.uk](mailto:info@helen-lawrence.co.uk)
 
-All the images on this website may not be reproduced or republished on another website or any other support without permission.
+For consultancy and freelance work please email
+[consultancy@helen-lawrence.co.uk](mailto:consultancy@helen-lawrence.co.uk)
+
+All artwork and photography are copyrighted and protected under international copyright laws. Artwork may not be reproduced in any form, stored, or manipulated without prior written permission from Helen Lawrence Ltd and the copyright holders.
 
 Design: [Gareth Johns](http://garethjohnsdesign.com)
