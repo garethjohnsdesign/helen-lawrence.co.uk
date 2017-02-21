@@ -4,8 +4,8 @@ position: 4
 layout: info
 ---
 
-[press@helen-lawrence.co.uk](mailto:press@helen-lawrence.co.uk)\
-[sales@helen-lawrence.co.uk](mailto:sales@helen-lawrence.co.uk)\
+[press@helen-lawrence.co.uk](mailto:press@helen-lawrence.co.uk)  
+[sales@helen-lawrence.co.uk](mailto:sales@helen-lawrence.co.uk)  
 [info@helen-lawrence.co.uk](mailto:info@helen-lawrence.co.uk)
 
 For consultancy and freelance work please email

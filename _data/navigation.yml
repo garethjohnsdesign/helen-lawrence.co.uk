@@ -37,17 +37,17 @@ collections:
 - title: SS/15
   url: /
   sublinks:
-    - title: Backstage
-      url: /collections/ss15-backstage/
     - title: Catwalk
       url: /collections/ss15-catwalk/
+    - title: Backstage
+      url: /collections/ss15-backstage/
 - title: AW/14
   url: /
   sublinks:
-    - title: Backstage
-      url: /collections/aw14-backstage/
     - title: Catwalk
       url: /collections/aw14-catwalk/
+    - title: Backstage
+      url: /collections/aw14-backstage/
     - title: Lookbook
       url: /collections/aw14-lookbook/
 - title: SS/14
@@ -62,14 +62,14 @@ collaborations:
 - title: Craig Green
   url: /
   sublinks:
-    - title: SS/13
-      url: /collaborations/craig-green-ss13
-    - title: AW/13
-      url: /collaborations/craig-green-aw13
-    - title: SS/14
-      url: /collaborations/craig-green-ss14
     - title: AW/14
       url: /collaborations/craig-green-aw14
+    - title: SS/14
+      url: /collaborations/craig-green-ss14
+    - title: AW/13
+      url: /collaborations/craig-green-aw13
+    - title: SS/13
+      url: /collaborations/craig-green-ss13
 
 - title: Kult Domini
   url: /

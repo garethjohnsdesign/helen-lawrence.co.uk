@@ -189,12 +189,6 @@
 		"oAP": "\/_config.yml",
 		"oF": 0
 		},
-	"\/_data\/navigation copy.yml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_data\/navigation copy.yml",
-		"oF": 0
-		},
 	"\/_data\/navigation.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -2895,40 +2889,6 @@
 		"oAP": "\/assets\/fonts\/Montserrat-Bold.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/Solanel-Medium.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/Solanel-Medium.eot",
-		"oF": 0
-		},
-	"\/assets\/fonts\/Solanel-Medium.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/Solanel-Medium.otf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/Solanel-Medium.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/Solanel-Medium.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/assets\/fonts\/Solanel-Medium.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/Solanel-Medium.ttf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/Solanel-Medium.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/Solanel-Medium.woff",
-		"oF": 0
-		},
 	"\/assets\/fonts\/Theinhardt-Rg.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -2985,11 +2945,11 @@
 		},
 	"\/assets\/img\/og-image.png": {
 		"ft": 32768,
-		"iS": 14790,
+		"iS": 5094,
 		"oA": 0,
 		"oAP": "\/assets\/img\/og-image.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/js\/app.js": {
 		"ft": 64,
