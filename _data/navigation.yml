@@ -2,6 +2,8 @@ collections:
 - title: AW/17
   url: /
   sublinks:
+    - title: Women
+      url: /collections/aw17-women/
     - title: Men
       url: /collections/aw17-men/
 - title: SS/17
