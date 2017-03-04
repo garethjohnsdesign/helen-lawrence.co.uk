@@ -7,7 +7,7 @@
 		"uuidString": "550FEDE5-7AFF-4FD3-8DBE-A45DE2D02921"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25568",
 "files": {
 	"\/404.md": {
 		"cS": 0,
@@ -127,6 +127,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_collections\/aw17-men.markdown",
+		"oF": 0
+		},
+	"\/_collections\/aw17-women.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_collections\/aw17-women.markdown",
 		"oF": 0
 		},
 	"\/_collections\/ma12-collection.markdown": {
@@ -1202,6 +1208,110 @@
 		"iS": 100257,
 		"oA": 0,
 		"oAP": "\/_uploads\/aw16\/presentation\/helen-lawrence-aw16-presentation-10.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-01.jpg": {
+		"ft": 16384,
+		"iS": 191255,
+		"oA": 0,
+		"oAP": "\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-02.jpg": {
+		"ft": 16384,
+		"iS": 183065,
+		"oA": 0,
+		"oAP": "\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-03.jpg": {
+		"ft": 16384,
+		"iS": 166655,
+		"oA": 0,
+		"oAP": "\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-04.jpg": {
+		"ft": 16384,
+		"iS": 62958,
+		"oA": 0,
+		"oAP": "\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-04.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-05.jpg": {
+		"ft": 16384,
+		"iS": 165921,
+		"oA": 0,
+		"oAP": "\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-05.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-06.jpg": {
+		"ft": 16384,
+		"iS": 179057,
+		"oA": 0,
+		"oAP": "\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-06.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-07.jpg": {
+		"ft": 16384,
+		"iS": 122809,
+		"oA": 0,
+		"oAP": "\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-07.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-08.jpg": {
+		"ft": 16384,
+		"iS": 163749,
+		"oA": 0,
+		"oAP": "\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-08.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-09.jpg": {
+		"ft": 16384,
+		"iS": 154747,
+		"oA": 0,
+		"oAP": "\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-09.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-10.jpg": {
+		"ft": 16384,
+		"iS": 73443,
+		"oA": 0,
+		"oAP": "\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-10.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-11.jpg": {
+		"ft": 16384,
+		"iS": 120762,
+		"oA": 0,
+		"oAP": "\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-11.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-12.jpg": {
+		"ft": 16384,
+		"iS": 142154,
+		"oA": 0,
+		"oAP": "\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-12.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-13.jpg": {
+		"ft": 16384,
+		"iS": 202190,
+		"oA": 0,
+		"oAP": "\/_uploads\/aw17-women\/helen-lawrence-aw17-women-lookbook-13.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2945,11 +3055,11 @@
 		},
 	"\/assets\/img\/og-image.png": {
 		"ft": 32768,
-		"iS": 5094,
+		"iS": 14790,
 		"oA": 0,
 		"oAP": "\/assets\/img\/og-image.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/js\/app.js": {
 		"ft": 64,
@@ -3851,7 +3961,7 @@
 	"\/bower_components\/flickity\/dist\/flickity.pkgd.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/flickity\/dist\/flickity.pkgd.js",
 		"oF": 0,
 		"sC": 1,
@@ -7213,7 +7323,7 @@
 	"\/bower_components\/motion-ui\/dist\/motion-ui.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/motion-ui\/dist\/motion-ui.min.js",
 		"oF": 0,
 		"sC": 1,
@@ -8076,7 +8186,7 @@
 	"\/bower_components\/smoothstate\/jquery.smoothState.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/smoothstate\/jquery.smoothState.min.js",
 		"oF": 0,
 		"sC": 1,
@@ -8473,7 +8583,7 @@
 	"\/bower_components\/what-input\/dist\/what-input.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/what-input\/dist\/what-input.js",
 		"oF": 0,
 		"sC": 1,
@@ -8773,10 +8883,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/collaborations.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/collaborations.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8791,10 +8901,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/collections.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/collections.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8845,10 +8955,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/index.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/index.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8931,10 +9041,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/stockists.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/stockists.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8974,12 +9084,6 @@
 			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/bower_components\/flickity\/dist\/flickity.pkgd.js",
 			"position": 4,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/smoothstate\/jquery.smoothState.min.js",
-			"position": 5,
 			"type": 0
 			}
 		]
@@ -9860,6 +9964,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -10188,6 +10296,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
 		"prefer-rest-params": {
 			"active": 0,
 			"optionString": ""
@@ -10281,6 +10393,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
