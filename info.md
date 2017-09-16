@@ -4,7 +4,7 @@ position: 4
 layout: info
 ---
 
-Helen Lawrence hails from Whitley Bay, outside of Newcastle-upon- Tyne.  
+Helen Lawrence hails from Whitley Bay, outside of Newcastle-upon-Tyne.  
 
 She gained a textile degree at Chelsea College of Art & Design before going onto the MA Fashion at Central Saint Martins, graduating in 2012.
 She soon started collaborating with CSM classmate and menswear talent Craig Green on his covetable knitwear.
