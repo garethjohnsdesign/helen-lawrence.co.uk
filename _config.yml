@@ -24,7 +24,6 @@ url: http://helen-lawrence.co.uk
 description: London-based knitwear designer
 permalink: pretty
 exclude:
-- Gruntfile.js
 - Gemfile
 - Gemfile.lock
 - package.json
