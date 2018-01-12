@@ -4,8 +4,11 @@ collections:
   sublinks:
     - title: Unisex
       url: /collections/aw18-unisex/
-    - title: Men
-      url: /collections/aw18-men/
+- title: AW/17
+  url: /
+  sublinks:
+    - title: Mens
+      url: /collections/aw17-mens/
 - title: SS/17
   url: /
   sublinks:
