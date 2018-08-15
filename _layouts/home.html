@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="grid-x align-center">
+  <div class="small-12 cell">
+    
+    <div class="orbit" role="region" aria-label="" data-orbit data-use-m-u-i="false" data-auto-play="false">
+      <div class="orbit-wrapper">
+        
+        <div class="orbit-controls">
+          <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span></button>
+          <button class="orbit-next"><span class="show-for-sr">Next Slide</span></button>
+        </div>
+        
+        <ul class="orbit-container">
+          {% for image in page.images %}
+          <li class="orbit-slide">
+  
+              <div class="grid-x align-center" style="height: 50vh;">
+                <div class="shrink cell text-center">
+                
+                <img class="orbit-image" src="{{ image }}">
+                
+                </div>
+              </div>
+          
+          </li>
+          {% endfor %}
+        </ul>
+        
+      </div>
+    </div>
+  
+  </div>
+</div>

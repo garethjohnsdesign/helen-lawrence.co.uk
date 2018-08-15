@@ -16,6 +16,6 @@ images:
 - "/uploads/aw18-unisex/helen-lawrence-aw18-unisex-lookbook-11.jpg"
 - "/uploads/aw18-unisex/helen-lawrence-aw18-unisex-lookbook-12.jpg"
 - "/uploads/aw18-unisex/helen-lawrence-aw18-unisex-lookbook-13.jpg"
-layout: index
+layout: home
 ---
 

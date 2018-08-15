@@ -1,53 +1,85 @@
 //  Table of Contents:
 //
-//   1. Global
-//   2. Typography
-//   3. 404
-//   4. Navigation
-//   5. Sections
-//   6. Excerpt
-//   7. Page
-//   8. Contact
+//   1. Mixins
+//   2. Global
+//   3. Plugins
+//   4. Color
+//   5. Typography
+//   6. Navigation
+//   7. Off-canvas
+//   8. Layout
+//   9. Home
+//   10. Menu / Food
+//   11. Find Us
+//   12. Story
+//   13. Hire Us
+//   14. Contact
+//   15. Page
+//   16. Footer
 
-// 1. Global
+
+// 1. Mixins
 // ---------
 
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+@mixin links ($link, $hover) {
+  a {
+    color: $link;
+    &:hover {
+      color: $hover;   
+    }
+  }
 }
 
-:focus {
-outline: 0;
-}
+// 2. Global
+// ---------
 
 body {
   cursor: default;
+  font-kerning: normal;
 }
 
 svg {
   max-width: 100%;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 ::selection {
-  background: $color--black;
-  color: $color--white;
+  background: $primary-color;
+  color: $black;
 }
 
-a { 
-  transition: $primary-transition;
+:focus {
+  outline: 0;
 }
 
+// 3. Plugins
+// ----------
 
-// 2. Typography
+.turbolinks-progress-bar {
+  height: 5px;
+  background-color: $primary-color;
+}
+
+// 4. Color
+// --------
+
+.white {
+  color: $white;
+}
+
+.primary-color {
+  color: get-color(primary);
+}
+
+.secondary-color {
+  color: get-color(secondary);
+}
+
+// 5. Typography
 // -------------
+
+.underline {
+  border-bottom: 1px solid $black;
+}
 
 .uppercase {
   text-transform: uppercase;
@@ -57,138 +89,97 @@ i, cite, em, var, address, dfn {
   font-style: normal;
 }
 
-// 3. 404
-// ------
-
-.info {
-  padding: 2rem; 
-        @include breakpoint(small only) {
-  padding: 1rem;
-  }
+p a {
+  border-bottom: 1px solid $white;
 }
 
-footer {
-  padding: 2rem;
-        @include breakpoint(small only) {
-  padding: 1rem;
-  }
-}
 
-.footer_socials {
-  z-index: 1000;
-}
-
-// 4. Navigation
+// 6. Navigation
 // -------------
 
-.top-bar-right-mobile {
-  padding-top: 9px;
-  z-index: 1000;
-}
-
-.off-canvas {
-  padding: 2rem;
-  font-size: 1.5rem;
-      @include breakpoint(small only) {
-  padding: 1rem;
-  }
-}
-
-.top-bar {
-   @include breakpoint(small only) {
-  padding: 1rem;
-  }
-}
-
-.nav__title {
-//   @include button(false, transparent, transparent, $black, solid);
-  font-family: $header-font-family;
-  font-size: 1.25rem;
-  letter-spacing: 0.25rem;
-  padding: 0rem;
-}
-
-.position-right {
-    @include breakpoint(small only) {
-  width:300px;
-  }
-}
-
-.carousel {
-  background: $white;
-}
-
-.carousel-cell {
+.navigation {
   width: 100%;
-  height: calc(100vh - 190px);
-  /* flex-box, center image in cell */
-  display: -webkit-box;
-  display: -webkit-flex;
-  display:         flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
-  -webkit-align-items: center;
-          align-items: center;
-}
-
-.carousel-cell img {
-  display: block;
-  max-width: 100%;
-  max-height: calc(100vh - 190px);
-}
-
-/* brighten selected image */
-.carousel-cell.is-selected img {
-  opacity: 1;
-}
-
-.project__status {
-  padding: 1rem;
-}
-
-
-.contact {
-    background: $black;
-    color: $white;
-    a { 
-    color: $white; 
-    }
+  .cell {
+	z-index: 14; 
   }
-  
-.contact .hamburger-inner {
+}
+
+.hamburger-inner {
   &,
   &::before,
   &::after {
     background-color: $white;
   }
+}
 
+// 7. Off-canvas
+// -------------
+
+.off-canvas {
+  @include links ($black,$dark-gray)
+}
+
+footer {
+  z-index: 11;
+}
+
+.hamburger-inner {
+  z-index: 11;
+  &,
   &::before,
   &::after {
-    content: "";
-    display: block;
+    background-color: $black;
   }
 }
 
-.contact .off-canvas {
-  background: $black;
+.hamburger {
+  z-index: 11;
+  &.is-active {
+    .hamburger-inner {
+      &,
+      &::before,
+      &::after {
+        background-color: $black;
+      }
+    }
+  }
 }
 
-.off-canvas {
-  border-left: $black 1px solid;
+
+.wrapper {
+  min-height: 100vh;
+  padding: 1rem;
+  @include breakpoint(medium) {
+    padding: 2rem;
+  }
+  @include breakpoint(large) {
+    padding: 3rem;
+  }
 }
 
-.contact .off-canvas {
-  border-left: $white 1px solid;
+.orbit-image {
+  height: 100%;
+  width: auto;
 }
 
-.main-content {
-  /* flex: 1; would be enough but it looks bad in IE */
-  flex: 1 0 auto;
+.is-drilldown {
+  width: 100% !important;
+  max-width: 100% !important;
 }
 
-.off-canvas-content {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
+.orbit-controls {
+  width: 100vw;
+}
+
+.orbit-previous, .orbit-next {
+height: 100vh;
+width: 50vw;
+}
+
+.orbit-previous {
+cursor: url('/assets/img/arrow_back_new.svg'), auto;
+}
+
+.orbit-next {
+cursor: url('/assets/img/arrow_forward_new.svg'), auto;	
 }

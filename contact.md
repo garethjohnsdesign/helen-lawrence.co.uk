@@ -1,7 +1,7 @@
 ---
 title: Contact
 position: 4
-layout: info
+layout: page
 ---
 
 [press@helen-lawrence.co.uk](mailto:press@helen-lawrence.co.uk)  
@@ -13,4 +13,4 @@ For consultancy and freelance work please email
 
 All artwork and photography are copyrighted and protected under international copyright laws. Artwork may not be reproduced in any form, stored, or manipulated without prior written permission from Helen Lawrence Ltd and the copyright holders.
 
-Design: [Gareth Johns](http://garethjohnsdesign.com)
+[Site Credit](http://garethjohnsdesign.com)

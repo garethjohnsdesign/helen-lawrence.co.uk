@@ -14,32 +14,29 @@ collections:
   uploads:
     title: Uploads
     output: false
-defaults:
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-url: http://helen-lawrence.co.uk
+url: https://www.helen-lawrence.co.uk
 description: London-based knitwear designer
 permalink: pretty
 exclude:
-- Gemfile
+- bower.json
 - Gemfile.lock
 - package.json
+- config.codekit3
 - README*
+- LICENSE*
+- CHANGELOG*
 - node_modules
 - ".gitignore"
 - bower_components
-- config.codekit3
-- CHANGELOG.md
-- LICENSE.md
+- assets/scss
 gems:
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-feed
+- jekyll/imgix
 markdown: kramdown
 kramdown:
+  auto_ids: false
   input: GFM
   hard_wrap: false
 highlighter: rouge
@@ -55,3 +52,12 @@ social:
   facebook: https://www.facebook.com/Helen-Lawrence-759488197413010/
   instagram: https://www.instagram.com/helenlawrenceknits/
   twitter: https://twitter.com/hel_law
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false
+imgix:
+  source: helen-lawrence.imgix.net
+

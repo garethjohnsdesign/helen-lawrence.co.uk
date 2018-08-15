@@ -1,24 +1,36 @@
-/*
 @font-face {
-  font-family: 'SpaceMono-Regular';
+  font-family: 'Alte Haas Grotesk Bold';
   src: 
-  url('../fonts/SpaceMono-Regular.woff') format('woff'), 
-  url('../fonts/SpaceMono-Regular.ttf')  format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-*/
-
-@font-face {
-  font-family: 'Theinhardt-Rg';
-  src: url('../fonts/Theinhardt-Rg.eot?#iefix') format('embedded-opentype'), url('../fonts/Theinhardt-Rg.woff') format('woff'), url('../fonts/Theinhardt-Rg.ttf')  format('truetype'), url('../fonts/Theinhardt-Rg.svg#Theinhardt-Rg') format('svg');
+  url('../fonts/alte-haas-grotesk-bold.woff2') format('woff2'), 
+  url('../fonts/alte-haas-grotesk-bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat-Bold';
-  src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Bold.woff') format('woff'), url('../fonts/Montserrat-Bold.ttf')  format('truetype'), url('../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+  font-family: 'Alte Haas Grotesk Regular';
+  src: 
+  url('../fonts/alte-haas-grotesk-regular.woff2') format('woff2'), 
+  url('../fonts/alte-haas-grotesk-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Founders';
+  src: 
+  url('../fonts/founders-grotesk-regular.woff2') format('woff2'), 
+  url('../fonts/founders-grotesk-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Gallery';
+  src: 
+  url('../fonts/gallery.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
