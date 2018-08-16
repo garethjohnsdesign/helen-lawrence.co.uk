@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{% if page.images %}
 <div class="grid-x align-center">
   <div class="small-12 cell">
     
@@ -34,4 +35,19 @@ layout: default
   
   </div>
 </div>
+{% endif %}
+
+{% if page.video %}
+
+    
+<div class="grid-x grid-padding-x align-center">
+  <div class="small-12 medium-10 large-8 cell">
+  	<div class="responsive-embed widescreen">
+  	   <iframe src="https://player.vimeo.com/video/{{ page.video }}?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  	</div>
+  </div>
+</div>
+  
+
+{% endif %}
 
