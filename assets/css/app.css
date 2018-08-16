@@ -6317,16 +6317,8 @@ Single-colored icons can be modified like so:
   color: red;
 }
 ========================================== */
-.icon-arrows {
-  font-size: 2rem;
-  color: #ffffff; }
-
-.icon-logo {
-  font-size: 4rem; }
-
-.icon-play_arrow {
-  font-size: 5rem;
-  display: inline-block; }
+.icon-arrow_back {
+  font-size: 2rem; }
 
 body {
   cursor: default;
