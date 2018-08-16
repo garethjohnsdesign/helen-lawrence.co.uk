@@ -129,7 +129,20 @@ i, cite, em, var, address, dfn {
 }
 
 p a {
-  border-bottom: 1px solid $white;
+  border-bottom: 1px solid $black;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  text-transform: uppercase;
+}
+
+h5, .h5 {
+  letter-spacing: 1px;
 }
 
 
@@ -217,9 +230,9 @@ footer {
 }
 
 .orbit-previous {
-  cursor: url('/assets/img/arrow_back_new.svg'), auto;
+  cursor: url('/assets/img/arrow_back.svg'), auto;
 }
 
 .orbit-next {
-  cursor: url('/assets/img/arrow_forward_new.svg'), auto;	
+  cursor: url('/assets/img/arrow_forward.svg'), auto;	
 }

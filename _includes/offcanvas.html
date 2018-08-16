@@ -3,22 +3,22 @@
   
         <ul class="vertical menu drilldown text-center" data-drilldown data-auto-height="true" data-animate-height="false" data-back-button='<li class="js-drilldown-back"><a tabindex="0"><svg class="icon icon-arrow_back"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_back"></use></svg></a></li>'>
               <li>
-              <a href="#" class="uppercase h5">Collections</a>
+              <a href="#" class="h5">Collections</a>
               
               <ul class="nested vertical menu">
               {% for entry in site.data.navigation.collections %}
               {% assign sublinks = entry.sublinks %}
               {% if sublinks %}
               <li{{ current }}>
-              <a href="{{ site.baseurl }}{{ entry.url }}" class="uppercase h5">{{ entry.title }}</a>
+              <a href="{{ site.baseurl }}{{ entry.url }}" class="h5">{{ entry.title }}</a>
               <ul class="menu vertical nested">
               {% for sublink in sublinks %}
-              <li><a href="{{ site.baseurl }}{{ sublink.url }}" class="uppercase h5">{{ sublink.title }}</a></li>
+              <li><a href="{{ site.baseurl }}{{ sublink.url }}" class="h5">{{ sublink.title }}</a></li>
               {% endfor %}
               </ul>
               </li>
               {% else %}
-              <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="uppercase h5">{{ entry.title }}</a></li>
+              <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="h5">{{ entry.title }}</a></li>
               {% endif %}
               {% endfor %}
               </ul>
@@ -26,29 +26,29 @@
               </li>
               
               <li>
-              <a href="#" class="uppercase h5">Collaborations</a>
+              <a href="#" class="h5">Collaborations</a>
               
               <ul class="nested vertical menu">
               {% for entry in site.data.navigation.collaborations %}
               {% assign sublinks = entry.sublinks %}
               {% if sublinks %}
               <li{{ current }}>
-              <a href="{{ site.baseurl }}{{ entry.url }}" class="uppercase h5">{{ entry.title }}</a>
+              <a href="{{ site.baseurl }}{{ entry.url }}" class="h5">{{ entry.title }}</a>
               <ul class="menu vertical nested">
               {% for sublink in sublinks %}
-              <li><a href="{{ site.baseurl }}{{ sublink.url }}" class="uppercase h5">{{ sublink.title }}</a></li>
+              <li><a href="{{ site.baseurl }}{{ sublink.url }}" class="h5">{{ sublink.title }}</a></li>
               {% endfor %}
               </ul>
               </li>
               {% else %}
-              <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="uppercase h5">{{ entry.title }}</a></li>
+              <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="h5">{{ entry.title }}</a></li>
               {% endif %}
               {% endfor %}
               </ul>
               
               </li>
               
-              <li><a href="/contact" class="uppercase h5">Contact</a></li>
+              <li><a href="/contact" class="h5">Contact</a></li>
         
         </ul>
   
