@@ -6333,9 +6333,9 @@ body {
   font-kerning: normal; }
 
 .loader {
-  z-index: 15;
+  z-index: 9;
   position: fixed;
-  background: url(/uploads/splash.jpg) no-repeat top center fixed;
+  background: url(/uploads/splash.jpg) no-repeat center center fixed;
   background-size: cover;
   top: 0;
   left: 0;
@@ -6344,9 +6344,16 @@ body {
   opacity: 1;
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
   visibility: visible; }
-  .loader.loaded {
-    opacity: 0;
-    visibility: hidden; }
+
+.home .navigation {
+  z-index: 8;
+  width: 100%; }
+  .home .navigation a {
+    color: #111111; }
+    .home .navigation a:hover {
+      color: #8a8a8a; }
+  .home .navigation .cell {
+    z-index: 8; }
 
 svg {
   max-width: 100%; }

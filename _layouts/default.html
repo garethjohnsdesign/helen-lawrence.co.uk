@@ -11,18 +11,6 @@ layout: compress
 
 <body>
   
-{% if page.layout == "home" %}
-<div class="grid-y align-center loader">
-  <div class="shrink cell">
-    <div class="grid-x grid-padding-x align-center">
-    	<div class="shrink cell" data-aos="fade-in">
-    		<h4>{{site.title}}</h4>
-    	</div>
-    </div>
-  </div>
-</div>
-{% endif %}
-  
 <!-- Off Canvas Navigation -->
 <div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap" data-close-on-click="false" data-content-scroll="false">
 {% include offcanvas.html %}

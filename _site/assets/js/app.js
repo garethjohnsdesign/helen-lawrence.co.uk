@@ -3,6 +3,7 @@ $(document).foundation();
 // 1. Loading
 // --------------------
 
+/*
 $(function() {
 if (sessionStorage.getItem('set') === 'set') {
   $('.loader').hide();
@@ -14,6 +15,7 @@ if (sessionStorage.getItem('set') === 'set') {
   sessionStorage.setItem('set', 'set');
 }
 });
+*/
 
 // 2. Animate on Scroll
 // --------------------

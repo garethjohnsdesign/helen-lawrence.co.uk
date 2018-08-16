@@ -39,9 +39,9 @@ body {
 }
 
 .loader {
-  z-index: 15;
+  z-index: 9;
   position: fixed;
-  background: url(/uploads/splash.jpg) no-repeat top center fixed; 
+  background: url(/uploads/splash.jpg) no-repeat center center fixed; 
   background-size: cover;
   top: 0;
   left: 0;
@@ -50,9 +50,14 @@ body {
   opacity: 1;
   transition: $primary-transition;
   visibility: visible;
-  &.loaded {
-    opacity: 0;
-    visibility: hidden;
+}
+
+.home .navigation {
+  z-index: 8;
+  width: 100%;
+  @include links ($black,$dark-gray)
+  .cell {
+	z-index: 8; 
   }
 }
 
