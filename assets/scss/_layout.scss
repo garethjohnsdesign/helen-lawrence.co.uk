@@ -38,13 +38,31 @@ body {
   font-kerning: normal;
 }
 
+.loader {
+  z-index: 15;
+  position: fixed;
+  background: url(/uploads/splash.jpg) no-repeat top center fixed; 
+  background-size: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 1;
+  transition: $primary-transition;
+  visibility: visible;
+  &.loaded {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
 svg {
   max-width: 100%;
 }
 
 ::selection {
   background: $primary-color;
-  color: $black;
+  color: $white;
 }
 
 :focus {
@@ -99,6 +117,7 @@ p a {
 
 .navigation {
   width: 100%;
+  @include links ($black,$dark-gray)
   .cell {
 	z-index: 14; 
   }
@@ -172,14 +191,14 @@ footer {
 }
 
 .orbit-previous, .orbit-next {
-height: 100vh;
-width: 50vw;
+  height: 100%;
+  width: 50vw;
 }
 
 .orbit-previous {
-cursor: url('/assets/img/arrow_back_new.svg'), auto;
+  cursor: url('/assets/img/arrow_back_new.svg'), auto;
 }
 
 .orbit-next {
-cursor: url('/assets/img/arrow_forward_new.svg'), auto;	
+  cursor: url('/assets/img/arrow_forward_new.svg'), auto;	
 }

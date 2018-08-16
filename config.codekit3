@@ -2562,6 +2562,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_uploads\/splash.jpg": {
+		"ft": 16384,
+		"iS": 498897,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/splash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/_uploads\/ss14\/catwalk\/helen-lawrence-ss14-catwalk-01.jpg": {
 		"ft": 16384,
 		"iS": 67133,
@@ -11636,13 +11647,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/turbolinks5\/Gemfile",
-		"oF": 0
-		},
-	"\/bower_components\/turbolinks5\/Gemfile.lock": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/turbolinks5\/Gemfile.lock",
 		"oF": 0
 		},
 	"\/bower_components\/turbolinks5\/LICENSE": {

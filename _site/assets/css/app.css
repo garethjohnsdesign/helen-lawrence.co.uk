@@ -6332,12 +6332,28 @@ body {
   cursor: default;
   font-kerning: normal; }
 
+.loader {
+  z-index: 15;
+  position: fixed;
+  background: url(/uploads/splash.jpg) no-repeat top center fixed;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+  visibility: visible; }
+  .loader.loaded {
+    opacity: 0;
+    visibility: hidden; }
+
 svg {
   max-width: 100%; }
 
 ::selection {
   background: #0a0a0a;
-  color: #111111; }
+  color: #ffffff; }
 
 :focus {
   outline: 0; }
@@ -6369,6 +6385,10 @@ p a {
 
 .navigation {
   width: 100%; }
+  .navigation a {
+    color: #111111; }
+    .navigation a:hover {
+      color: #8a8a8a; }
   .navigation .cell {
     z-index: 14; }
 
@@ -6415,7 +6435,7 @@ footer {
   width: 100vw; }
 
 .orbit-previous, .orbit-next {
-  height: 100vh;
+  height: 100%;
   width: 50vw; }
 
 .orbit-previous {
