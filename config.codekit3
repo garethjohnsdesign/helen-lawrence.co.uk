@@ -590,6 +590,13 @@
 		"oAP": "\/_includes\/scripts.html",
 		"oF": 0
 		},
+	"\/_layouts\/collaborations.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/collaborations.html",
+		"oF": 0
+		},
 	"\/_layouts\/collection.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -618,6 +625,13 @@
 		"oAP": "\/_layouts\/home.html",
 		"oF": 0
 		},
+	"\/_layouts\/info.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/info.html",
+		"oF": 0
+		},
 	"\/_layouts\/missing.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -630,6 +644,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/page.html",
+		"oF": 0
+		},
+	"\/_layouts\/videos.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/videos.html",
 		"oF": 0
 		},
 	"\/_site": {
@@ -2541,17 +2562,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/_uploads\/splash.jpg": {
-		"ft": 16384,
-		"iS": 498897,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/_uploads\/splash.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"\/_uploads\/ss14\/catwalk\/helen-lawrence-ss14-catwalk-01.jpg": {
 		"ft": 16384,
 		"iS": 67133,
@@ -4331,11 +4341,31 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/img\/arrow_back_new.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/arrow_back_new.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/img\/arrow_forward.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/img\/arrow_forward.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/arrow_forward_new.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/arrow_forward_new.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -11608,6 +11638,13 @@
 		"oAP": "\/bower_components\/turbolinks5\/Gemfile",
 		"oF": 0
 		},
+	"\/bower_components\/turbolinks5\/Gemfile.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/turbolinks5\/Gemfile.lock",
+		"oF": 0
+		},
 	"\/bower_components\/turbolinks5\/LICENSE": {
 		"cB": 0,
 		"ft": 8192,
@@ -12222,6 +12259,42 @@
 		"oAP": "\/bower_components\/what-input\/yarn.lock",
 		"oF": 0
 		},
+	"\/collaborations.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/collaborations.md",
+		"oF": 1,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/collections.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/collections.md",
+		"oF": 1,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/contact.md": {
 		"cB": 0,
 		"cS": 0,
@@ -12273,6 +12346,24 @@
 		"oAP": "\/index.md",
 		"oF": 1,
 		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/info.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/info.html",
+		"oF": 0,
+		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,

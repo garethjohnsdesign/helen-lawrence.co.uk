@@ -39,11 +39,12 @@ body {
 }
 
 .logo {
-  -webkit-text-stroke: 1px $white;
-  color: transparent;
+  -webkit-text-stroke: 0px $white;
+  color: $white;
   letter-spacing: 0.5rem;
   @include breakpoint(medium) {
     -webkit-text-stroke: 1px $white;
+    color: transparent;
   }
   @include breakpoint(large) {
     -webkit-text-stroke: 2px $white;
@@ -51,7 +52,10 @@ body {
 }
 
 .logo:hover {
-  color: transparent;
+  color: $white;
+  @include breakpoint(medium) {
+    color: transparent;
+  }
 }
 
 .loader {
@@ -235,4 +239,8 @@ footer {
 
 .orbit-next {
   cursor: url('/assets/img/arrow_forward.svg'), auto;	
+}
+
+.page p {
+  margin-bottom: 3rem;
 }

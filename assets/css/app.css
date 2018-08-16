@@ -6339,18 +6339,22 @@ body {
   font-kerning: normal; }
 
 .logo {
-  -webkit-text-stroke: 1px #ffffff;
-  color: transparent;
+  -webkit-text-stroke: 0px #ffffff;
+  color: #ffffff;
   letter-spacing: 0.5rem; }
   @media print, screen and (min-width: 40em) {
     .logo {
-      -webkit-text-stroke: 1px #ffffff; } }
+      -webkit-text-stroke: 1px #ffffff;
+      color: transparent; } }
   @media print, screen and (min-width: 64em) {
     .logo {
       -webkit-text-stroke: 2px #ffffff; } }
 
 .logo:hover {
-  color: transparent; }
+  color: #ffffff; }
+  @media print, screen and (min-width: 40em) {
+    .logo:hover {
+      color: transparent; } }
 
 .loader {
   z-index: 9;
@@ -6479,3 +6483,6 @@ footer {
 
 .orbit-next {
   cursor: url("/assets/img/arrow_forward.svg"), auto; }
+
+.page p {
+  margin-bottom: 3rem; }
