@@ -38,6 +38,22 @@ body {
   font-kerning: normal;
 }
 
+.logo {
+  -webkit-text-stroke: 1px $white;
+  color: transparent;
+  letter-spacing: 0.5rem;
+  @include breakpoint(medium) {
+    -webkit-text-stroke: 1px $white;
+  }
+  @include breakpoint(large) {
+    -webkit-text-stroke: 2px $white;
+  }
+}
+
+.logo:hover {
+  color: transparent;
+}
+
 .loader {
   z-index: 9;
   position: fixed;

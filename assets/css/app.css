@@ -4211,6 +4211,20 @@ h6, .h6 {
   h6, .h6 {
     font-size: 1rem; } }
 
+@media print, screen and (min-width: 64em) {
+  h1, .h1 {
+    font-size: 4rem; }
+  h2, .h2 {
+    font-size: 2.5rem; }
+  h3, .h3 {
+    font-size: 1.9375rem; }
+  h4, .h4 {
+    font-size: 1.5625rem; }
+  h5, .h5 {
+    font-size: 1.25rem; }
+  h6, .h6 {
+    font-size: 1rem; } }
+
 a {
   line-height: inherit;
   color: #0a0a0a;
@@ -6323,6 +6337,20 @@ Single-colored icons can be modified like so:
 body {
   cursor: default;
   font-kerning: normal; }
+
+.logo {
+  -webkit-text-stroke: 1px #ffffff;
+  color: transparent;
+  letter-spacing: 0.5rem; }
+  @media print, screen and (min-width: 40em) {
+    .logo {
+      -webkit-text-stroke: 1px #ffffff; } }
+  @media print, screen and (min-width: 64em) {
+    .logo {
+      -webkit-text-stroke: 2px #ffffff; } }
+
+.logo:hover {
+  color: transparent; }
 
 .loader {
   z-index: 9;
