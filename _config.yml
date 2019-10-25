@@ -60,4 +60,3 @@ compress_html:
   profile: false
 imgix:
   source: helen-lawrence.imgix.net
-

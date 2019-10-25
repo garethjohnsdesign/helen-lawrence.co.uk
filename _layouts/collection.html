@@ -6,11 +6,11 @@ layout: default
 <div class="grid-x align-center">
   <div class="small-12 cell">
 
-    <div class="swiper-container carousel--hero home__hero__image">
+    <div class="swiper-container">
       <div class="swiper-wrapper">
         {% for image in page.images %}
-        <div class="swiper-slide small-12 cell text-center">
-          <img class="orbit-image" src="{{ image }}">
+        <div class="swiper-slide text-center" style="height: 60vh">
+        <img data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" style="height: 100%">
         </div>
         {% endfor %}
       </div>

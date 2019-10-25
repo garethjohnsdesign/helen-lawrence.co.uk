@@ -30,6 +30,27 @@
   }
 }
 
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+ .content {
+    transition: $primary-transition;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+  }
+}
+
 // 2. Global
 // ---------
 
@@ -94,12 +115,44 @@ svg {
   outline: 0;
 }
 
-// 3. Plugins
-// ----------
+// 7. Images
+// ---------
 
-.turbolinks-progress-bar {
-  height: 5px;
-  background-color: $primary-color;
+.gallery {
+  @include xy-grid-layout(2, '.gallery-item');
+}
+
+.image--1-1 {
+  @include aspect-ratio (1, 1);
+  background-size: cover; 
+  background-position: 50%;
+}
+
+.image--7-5 {
+  @include aspect-ratio (7, 5);
+  background-size: cover; 
+  background-position: 50%;
+}
+
+.image--16-9 {
+  @include aspect-ratio (16, 9);
+  background-size: contain; 
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.image--5-7 {
+  @include aspect-ratio (5, 7);
+  background-size: cover; 
+  background-position: 50%;
+  background-color: $black;
+}
+
+.image--gallery {
+  @include aspect-ratio (5, 7);
+  background-size: contain; 
+  background-position: 50%;
+  background-repeat: no-repeat;
 }
 
 // 4. Color

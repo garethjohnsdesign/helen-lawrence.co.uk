@@ -6572,9 +6572,113 @@ svg {
 :focus {
   outline: 0; }
 
-.turbolinks-progress-bar {
-  height: 5px;
-  background-color: #0a0a0a; }
+.gallery > .gallery-item {
+  width: calc(50% - 3rem);
+  margin-right: 1.5rem;
+  margin-left: 1.5rem; }
+
+.image--1-1 {
+  position: relative;
+  background-size: cover;
+  background-position: 50%; }
+  .image--1-1:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 100%; }
+  .image--1-1 .content {
+    transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%; }
+
+.image--7-5 {
+  position: relative;
+  background-size: cover;
+  background-position: 50%; }
+  .image--7-5:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 71.4285714286%; }
+  .image--7-5 .content {
+    transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%; }
+
+.image--16-9 {
+  position: relative;
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat; }
+  .image--16-9:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 56.25%; }
+  .image--16-9 .content {
+    transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%; }
+
+.image--5-7 {
+  position: relative;
+  background-size: cover;
+  background-position: 50%;
+  background-color: #111111; }
+  .image--5-7:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 140%; }
+  .image--5-7 .content {
+    transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%; }
+
+.image--gallery {
+  position: relative;
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat; }
+  .image--gallery:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 140%; }
+  .image--gallery .content {
+    transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%; }
 
 .white {
   color: #ffffff; }
