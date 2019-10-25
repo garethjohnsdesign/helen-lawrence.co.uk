@@ -4,4 +4,4 @@ Website for Helen Lawrence. Please go to [helen-lawrence.co.uk](https://www.hele
 
 * * *
 
-Copyright (c) 2018 Gareth Johns Design + Development – info@garethjohnsdesign.com
+Copyright (c) 2019 Gareth Johns Design + Development – info@garethjohnsdesign.com
