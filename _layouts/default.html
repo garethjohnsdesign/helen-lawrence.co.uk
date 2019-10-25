@@ -1,3 +1,7 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
 <html class="no-js" lang="en" dir="ltr">
 
@@ -5,31 +9,37 @@
 {% include head.html %}
 <!-- End Head -->
 
-<body class="{{page.title | slugify}} animated fadeIn">
-
-<div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap" data-close-on-click="false">
-{% include navigation-canvas.html %}
+<body>
+  
+<!-- Off Canvas Navigation -->
+<div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap" data-close-on-click="false" data-content-scroll="false">
+{% include offcanvas.html %}
 </div>
+<!-- End Off Canvas Navigation --> 
 
-<div class="off-canvas-content" data-off-canvas-content>
-<div class="main-content">
+<div class="wrapper grid-y off-canvas-content align-justify {{page.layout | slugify}}" data-off-canvas-content>
+<!-- Navigation -->
 {% include navigation.html %}
+<!-- End Navigation -->
 
-<!-- Menu -->  
-{% include overlay-menu.html %}
-<!-- End Menu --> 
+<!-- Content -->
+{{content}}
+<!-- End Content -->
 
-{{ content }}
-</div>
-
+<!-- Footer -->
 {% include footer.html %}
-
+<!-- End Footer-->
 </div>
-
-</body>
 
 <!-- Scripts -->
 {% include scripts.html %}
 <!-- End Scripts -->
+
+<!-- Google Analytics -->
+{% if site.analytics %}
+{% include analytics.html %}
+{% endif %}
+<!-- End Google Analytics -->
+</body>
 
 </html>

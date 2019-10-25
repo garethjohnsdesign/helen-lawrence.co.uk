@@ -1,53 +1,128 @@
 //  Table of Contents:
 //
-//   1. Global
-//   2. Typography
-//   3. 404
-//   4. Navigation
-//   5. Sections
-//   6. Excerpt
-//   7. Page
-//   8. Contact
+//   1. Mixins
+//   2. Global
+//   3. Plugins
+//   4. Color
+//   5. Typography
+//   6. Navigation
+//   7. Off-canvas
+//   8. Layout
+//   9. Home
+//   10. Menu / Food
+//   11. Find Us
+//   12. Story
+//   13. Hire Us
+//   14. Contact
+//   15. Page
+//   16. Footer
 
-// 1. Global
+
+// 1. Mixins
 // ---------
 
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+@mixin links ($link, $hover) {
+  a {
+    color: $link;
+    &:hover {
+      color: $hover;   
+    }
+  }
 }
 
-:focus {
-outline: 0;
-}
+// 2. Global
+// ---------
 
 body {
   cursor: default;
+  font-kerning: normal;
+}
+
+.logo {
+  -webkit-text-stroke: 0px $white;
+  color: $white;
+  letter-spacing: 0.5rem;
+  @include breakpoint(medium) {
+    -webkit-text-stroke: 1px $white;
+    color: transparent;
+  }
+  @include breakpoint(large) {
+    -webkit-text-stroke: 2px $white;
+  }
+}
+
+.logo:hover {
+  color: $white;
+  @include breakpoint(medium) {
+    color: transparent;
+  }
+}
+
+.loader {
+  z-index: 9;
+  position: fixed;
+  background: url(/uploads/splash.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 1;
+  transition: $primary-transition;
+  visibility: visible;
+}
+
+.home .navigation {
+  z-index: 8;
+  width: 100%;
+  @include links ($black,$dark-gray)
+  .cell {
+	z-index: 8; 
+  }
 }
 
 svg {
   max-width: 100%;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 ::selection {
-  background: $color--black;
-  color: $color--white;
+  background: $primary-color;
+  color: $white;
 }
 
-a { 
-  transition: $primary-transition;
+:focus {
+  outline: 0;
 }
 
+// 3. Plugins
+// ----------
 
-// 2. Typography
+.turbolinks-progress-bar {
+  height: 5px;
+  background-color: $primary-color;
+}
+
+// 4. Color
+// --------
+
+.white {
+  color: $white;
+}
+
+.primary-color {
+  color: get-color(primary);
+}
+
+.secondary-color {
+  color: get-color(secondary);
+}
+
+// 5. Typography
 // -------------
+
+.underline {
+  border-bottom: 1px solid $black;
+}
 
 .uppercase {
   text-transform: uppercase;
@@ -57,138 +132,115 @@ i, cite, em, var, address, dfn {
   font-style: normal;
 }
 
-// 3. 404
-// ------
-
-.info {
-  padding: 2rem; 
-        @include breakpoint(small only) {
-  padding: 1rem;
-  }
+p a {
+  border-bottom: 1px solid $black;
 }
 
-footer {
-  padding: 2rem;
-        @include breakpoint(small only) {
-  padding: 1rem;
-  }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
 }
 
-.footer_socials {
-  z-index: 1000;
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  text-transform: uppercase;
 }
 
-// 4. Navigation
+h5, .h5 {
+  letter-spacing: 1px;
+}
+
+
+// 6. Navigation
 // -------------
 
-.top-bar-right-mobile {
-  padding-top: 9px;
-  z-index: 1000;
-}
-
-.off-canvas {
-  padding: 2rem;
-  font-size: 1.5rem;
-      @include breakpoint(small only) {
-  padding: 1rem;
-  }
-}
-
-.top-bar {
-   @include breakpoint(small only) {
-  padding: 1rem;
-  }
-}
-
-.nav__title {
-//   @include button(false, transparent, transparent, $black, solid);
-  font-family: $header-font-family;
-  font-size: 1.25rem;
-  letter-spacing: 0.25rem;
-  padding: 0rem;
-}
-
-.position-right {
-    @include breakpoint(small only) {
-  width:300px;
-  }
-}
-
-.carousel {
-  background: $white;
-}
-
-.carousel-cell {
+.navigation {
   width: 100%;
-  height: calc(100vh - 190px);
-  /* flex-box, center image in cell */
-  display: -webkit-box;
-  display: -webkit-flex;
-  display:         flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
-  -webkit-align-items: center;
-          align-items: center;
-}
-
-.carousel-cell img {
-  display: block;
-  max-width: 100%;
-  max-height: calc(100vh - 190px);
-}
-
-/* brighten selected image */
-.carousel-cell.is-selected img {
-  opacity: 1;
-}
-
-.project__status {
-  padding: 1rem;
-}
-
-
-.contact {
-    background: $black;
-    color: $white;
-    a { 
-    color: $white; 
-    }
+  @include links ($black,$dark-gray)
+  .cell {
+	z-index: 14; 
   }
-  
-.contact .hamburger-inner {
+}
+
+.hamburger-inner {
   &,
   &::before,
   &::after {
     background-color: $white;
   }
+}
 
+// 7. Off-canvas
+// -------------
+
+.off-canvas {
+  @include links ($black,$dark-gray)
+}
+
+footer {
+  z-index: 11;
+}
+
+.hamburger-inner {
+  z-index: 11;
+  &,
   &::before,
   &::after {
-    content: "";
-    display: block;
+    background-color: $black;
   }
 }
 
-.contact .off-canvas {
-  background: $black;
+.hamburger {
+  z-index: 11;
+  &.is-active {
+    .hamburger-inner {
+      &,
+      &::before,
+      &::after {
+        background-color: $black;
+      }
+    }
+  }
 }
 
-.off-canvas {
-  border-left: $black 1px solid;
+
+.wrapper {
+  min-height: 100vh;
+  padding: 1rem;
+  @include breakpoint(medium) {
+    padding: 2rem;
+  }
+  @include breakpoint(large) {
+    padding: 3rem;
+  }
 }
 
-.contact .off-canvas {
-  border-left: $white 1px solid;
+.orbit-image {
+  height: 100%;
+  width: auto;
 }
 
-.main-content {
-  /* flex: 1; would be enough but it looks bad in IE */
-  flex: 1 0 auto;
+.is-drilldown {
+  width: 100% !important;
+  max-width: 100% !important;
 }
 
-.off-canvas-content {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
+.orbit-controls {
+  width: 100vw;
+}
+
+.orbit-previous, .orbit-next {
+  height: 100%;
+  width: 50vw;
+}
+
+.orbit-previous {
+  cursor: url('/assets/img/arrow_back.svg'), auto;
+}
+
+.orbit-next {
+  cursor: url('/assets/img/arrow_forward.svg'), auto;	
+}
+
+.page p {
+  margin-bottom: 3rem;
 }
