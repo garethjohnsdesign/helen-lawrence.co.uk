@@ -1,0 +1,62 @@
+---
+title: Helen Lawrence
+timezone: UTC
+collections:
+  collaborations:
+    title: Collaborations
+    output: true
+  collections:
+    title: Collections
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: false
+url: https://www.helen-lawrence.co.uk
+description: London-based knitwear designer
+permalink: pretty
+exclude:
+- bower.json
+- Gemfile.lock
+- package.json
+- config.codekit3
+- README*
+- LICENSE*
+- CHANGELOG*
+- node_modules
+- ".gitignore"
+- bower_components
+- assets/scss
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+- jekyll/imgix
+markdown: kramdown
+kramdown:
+  auto_ids: false
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+company: Helen Lawrence
+email: info@helen-lawrence.co.uk
+google_site_verification: Pv-d2FbtWz0__KPWgxty2EUxHyIlYW0xq_XIazh3v_E
+analytics: UA-91753391-1
+logo: "/assets/img/logo.svg"
+per_page: 12
+date_format: "%Y"
+future: true
+social:
+  facebook: https://www.facebook.com/Helen-Lawrence-759488197413010/
+  instagram: https://www.instagram.com/helenlawrenceknits/
+  twitter: https://twitter.com/hel_law
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false
+imgix:
+  source: helen-lawrence.imgix.net

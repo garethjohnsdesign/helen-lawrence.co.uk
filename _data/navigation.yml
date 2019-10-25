@@ -1,0 +1,91 @@
+collections:
+- title: AW/18
+  url: /
+  sublinks:
+    - title: Unisex
+      url: /collections/aw18-unisex/
+- title: AW/17
+  url: /
+  sublinks:
+    - title: Mens
+      url: /collections/aw17-mens/
+- title: SS/17
+  url: /
+  sublinks:
+    - title: Film
+      url: /collections/ss17-film/
+    - title: Lookbook
+      url: /collections/ss17-lookbook/
+- title: AW/16
+  url: /
+  sublinks:
+    - title: Film
+      url: /collections/aw16-film/
+    - title: Lookbook
+      url: /collections/aw16-lookbook/
+    - title: Presentation
+      url: /collections/aw16-presentation/
+- title: SS/16
+  url: /
+  sublinks:
+    - title: Lookbook
+      url: /collections/ss16-lookbook/
+    - title: Presentation
+      url: /collections/ss16-presentation/
+- title: AW/15
+  url: /
+  sublinks:
+    - title: Looks
+      url: /collections/aw15-looks/
+    - title: Presentation
+      url: /collections/aw15-presentation/
+- title: SS/15
+  url: /
+  sublinks:
+    - title: Catwalk
+      url: /collections/ss15-catwalk/
+    - title: Backstage
+      url: /collections/ss15-backstage/
+- title: AW/14
+  url: /
+  sublinks:
+    - title: Catwalk
+      url: /collections/aw14-catwalk/
+    - title: Backstage
+      url: /collections/aw14-backstage/
+    - title: Lookbook
+      url: /collections/aw14-lookbook/
+- title: SS/14
+  url: /
+  sublinks:
+    - title: Catwalk
+      url: /collections/ss14-catwalk/
+    - title: Lookbook
+      url: /collections/ss14-lookbook/
+
+collaborations:    
+- title: Craig Green
+  url: /
+  sublinks:
+    - title: AW/14
+      url: /collaborations/craig-green-aw14
+    - title: SS/14
+      url: /collaborations/craig-green-ss14
+    - title: AW/13
+      url: /collaborations/craig-green-aw13
+    - title: SS/13
+      url: /collaborations/craig-green-ss13
+
+- title: Kult Domini
+  url: /
+  sublinks:
+    - title: AW/15
+      url: /collaborations/kult-domini-aw15
+    - title: SS/15
+      url: /collaborations/kult-domini-ss15
+
+- title: Slim Barrett
+  url: /collaborations/slim-barrett/
+  
+- title: Lily Kamper
+  url: /collaborations/lily-kamper/
