@@ -989,6 +989,12 @@
 		"oAP": "/_layouts/page.html",
 		"oF": 0
 		},
+	"/_site": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/_site",
+		"oF": 0
+		},
 	"/_uploads/aw14/backstage/helen-lawrence-aw15-backstage-01.jpg": {
 		"ft": 16384,
 		"iS": 124010,
