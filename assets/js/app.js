@@ -27,6 +27,7 @@ var mySwiper = new Swiper ('.swiper-container', {
 
   direction: 'horizontal',
   slidesPerView: 'auto',
+  effect: 'fade',
   centeredSlides: true,
   initialSlide: firstSlide,
   loop: true,
@@ -39,8 +40,7 @@ onlyInViewport: false,
 },
 
 navigation: {
-  nextEl: '.swiper-button-next-test',
-  prevEl: '.swiper-button-prev-test',
+  nextEl: '.swiper-slide',
 }
 
 

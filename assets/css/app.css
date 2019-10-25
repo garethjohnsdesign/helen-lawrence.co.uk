@@ -6572,10 +6572,26 @@ svg {
 :focus {
   outline: 0; }
 
-.gallery > .gallery-item {
-  width: calc(50% - 3rem);
-  margin-right: 1.5rem;
-  margin-left: 1.5rem; }
+.image--bespoke {
+  position: relative;
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat; }
+  .image--bespoke:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 56.25%; }
+  .image--bespoke .content {
+    transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%; }
 
 .image--1-1 {
   position: relative;

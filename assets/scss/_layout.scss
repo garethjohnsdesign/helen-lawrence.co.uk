@@ -118,8 +118,11 @@ svg {
 // 7. Images
 // ---------
 
-.gallery {
-  @include xy-grid-layout(2, '.gallery-item');
+.image--bespoke {
+  @include aspect-ratio (16, 9);
+  background-size: contain; 
+  background-position: 50%;
+  background-repeat: no-repeat;
 }
 
 .image--1-1 {
